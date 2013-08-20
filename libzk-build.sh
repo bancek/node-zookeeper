@@ -9,7 +9,7 @@ PLATFORM=`uname`
 ZK=zookeeper-3.4.3
 ZK_FILE=/$BUILD_TMP/$ZK.tar.gz
 
-ZK_URL=http://download.joyent.com/pub/zookeeper/zookeeper-3.4.3.tar.gz
+ZK_URL=http://archive.apache.org/dist/zookeeper/zookeeper-3.4.3/zookeeper-3.4.3.tar.gz
 
 mkdir -p $BUILD_TMP
 if [ ! -e "$ZK_FILE" ] ; then
